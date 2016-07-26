@@ -1,0 +1,11 @@
+package alexiuscrow.spring.postproc.annotations;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+
+@Retention(RetentionPolicy.RUNTIME)
+public @interface RandomInt {
+    int min();
+
+    int max();
+}
